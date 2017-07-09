@@ -81,30 +81,34 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-custom {
-    background-color: @gray-darker;
+    background-color: white;
+    color: black;
     border-color: transparent;
+    border-bottom: 1px solid #eee;
+    itext-shadow: 0px 0px 15px #000000;
+
     .navbar-brand {
+        padding: 2pt 5pt;
         color: @theme-primary;
         .script-font;
         &:hover,
         &:focus,
         &:active,
         &.active {
-            color: darken(@theme-primary, 10%);
+            color: black;
         }
     }
     .navbar-collapse {
         border-color: fade(white, 2%);
     }
     .navbar-toggle {
-        background-color: @theme-primary;
-        border-color: @theme-primary;
+        border-color: transparent;
         .heading-font;
-        color: white;
-        font-size: 12px;
+        color: black;
+        font-size: 22px;
         &:hover,
         &:focus {
-            background-color: @theme-primary;
+            background-color: white;
         }
     }
     .nav {
@@ -113,10 +117,10 @@ h1, h2, h3, h4, h5, h6 {
                 .heading-font;
                 font-weight: 400;
                 letter-spacing: 1px;
-                color: white;
+                color: black;
                 &:hover,
                 &:focus {
-                    color: @theme-primary;
+                    color: black;
                     outline: none;
                 }
             }
@@ -124,13 +128,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-nav>.active>a {
         border-radius: 0;
-        color: white;
-        background-color: @theme-primary;
+        color: @theme-primary;
+        background-color: white;
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
-        color: white;
-        background-color: darken(@theme-primary, 10%);
+        color: @theme-primary;
+        background-color: white;
     }
 }
 
@@ -158,16 +162,21 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:768px) {
     .navbar-custom.affix {
-        background-color: @gray-darker;
+        background-color: white;
+        border-bottom: 1px solid #eee;
+
         padding: 10px 0;
         .navbar-brand {
             font-size: 1.5em;
         }
     }
+    .navbar-custom.affix-top .nav li a {
+        color: white;
+    }
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header-bg.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -177,9 +186,9 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+        text-shadow: 0px 0px 10px #000000;
         .intro-lead-in {
-            .serif-font;
-            font-style: italic;
+            .heading-font;
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
@@ -189,7 +198,7 @@ header {
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
-            margin-bottom: 25px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -200,9 +209,8 @@ header {
             padding-top: 300px;
             padding-bottom: 200px;
             .intro-lead-in {
-                .serif-font;
-                font-style: italic;
-                font-size: 40px;
+                .heading-font;
+                font-size: 33px;
                 line-height: 40px;
                 margin-bottom: 25px;
             }
@@ -211,7 +219,7 @@ header {
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;
-                margin-bottom: 50px;
+                margin-bottom: 10px;
             }
         }
     }
@@ -288,8 +296,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -574,7 +582,7 @@ section#contact {
        font-weight: 700;
        color: @gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        .heading-font;
        font-weight: 700;
        color: @gray-lighter;
@@ -704,8 +712,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;

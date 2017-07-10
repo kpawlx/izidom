@@ -176,6 +176,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-custom.affix-top .nav li a {
         color: white;
+        &:hover,
+        &:focus {
+            color: lighten(@theme-primary, 20%);
+        }
+        &.active {
+            color: @theme-primary;
+        }
     }
 }
 

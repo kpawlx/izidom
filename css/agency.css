@@ -230,6 +230,13 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom.affix-top .nav li a {
     color: white;
   }
+  .navbar-custom.affix-top .nav li a:hover,
+  .navbar-custom.affix-top .nav li a:focus {
+    color: #ec0000;
+  }
+  .navbar-custom.affix-top .nav li a.active {
+    color: #860000;
+  }
 }
 header {
   background-image: url('../img/header-bg.jpg');

@@ -29,7 +29,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #530000;
+  color: #ec0000;
 }
 h1,
 h2,
@@ -182,7 +182,8 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: black;
+  icolor: black;
+  color: #ec0000;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -190,7 +191,10 @@ fieldset[disabled] .btn-xl.active {
   color: #860000;
   background-color: white;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:hover {
+  color: #ec0000;
+  background-color: white;
+}
 .navbar-custom .navbar-nav > .active > a:focus {
   color: #860000;
   background-color: white;
@@ -561,6 +565,12 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-shadow: 0px 0px 20px #000000;
 }
 section#contact .section-heading {
   color: white;

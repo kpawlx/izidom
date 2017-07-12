@@ -69,6 +69,13 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'))
+
+    gulp.src(['node_modules/handlebars/dist/handlebars.js', 'node_modules/handlebars/dist/handlebars.min.js'])
+        .pipe(gulp.dest('vendor/handlebars'))
+
+    gulp.src(['node_modules/papaparse/papaparse.js', 'node_modules/papaparse/papaparse.min.js'])
+        .pipe(gulp.dest('vendor/papaparse'))
+
 })
 
 // Run everything

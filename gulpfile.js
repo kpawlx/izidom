@@ -76,6 +76,9 @@ gulp.task('copy', function() {
     gulp.src(['node_modules/papaparse/papaparse.js', 'node_modules/papaparse/papaparse.min.js'])
         .pipe(gulp.dest('vendor/papaparse'))
 
+    gulp.src(['node_modules/leaflet/dist/**/*'])
+        .pipe(gulp.dest('vendor/leaflet'))
+
 })
 
 // Run everything

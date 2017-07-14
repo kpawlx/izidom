@@ -24,6 +24,9 @@ function set_description_tables(table_template) {
   });
 }
 
+var location_latitude = 52.384621;
+var location_longitude = 17.060662;
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -92,6 +95,17 @@ function set_description_tables(table_template) {
         set_description_tables(offer_houses_table_template);
     	}
     });
+
+
+    var mymap = L.map('mapid').setView([location_latitude, location_longitude], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+  maxZoom: 18,
+  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+    '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+  id: 'mapbox.streets'
+}).addTo(mymap);
+    var marker = L.marker([location_latitude, location_longitude]).addTo(mymap).bindPopup('<img src="img/logo.png"/>').openPopup();
 
 
 })(jQuery); // End of use strict

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Izidom</title>
+    <title>IZIDOM</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,6 +18,8 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="vendor/leaflet/leaflet.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -55,10 +57,10 @@
                         <a class="page-scroll" href="#portfolio">Oferta</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">O Firmie</a>
+                        <a class="page-scroll" href="#team">Lokalizacja</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Lokalizacja</a>
+                        <a class="page-scroll" href="#about">O Firmie</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Kontakt</a>
@@ -87,10 +89,46 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Inwestycja</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
-            <div class="row text-center">
+            <p>Mamy przyjemność zaprezentować Państwu nową inwestycję: osiedle domów w zabudowie bliźniaczej położone w Zalasewie przy ulicy Transportowej i Rivoliego zaledwie 0,6km od Poznania.</p>
+            <p>Inwestycja realizowana jest w 3 etapach:</p>
+            <div class="row">
+              <div class="col-sm-8">
+                <dl class="dl-horizontal">
+                  <dt>I ETAP</dt>
+                  <dd>Obejmuje budowę 3 budynków (sześć segmentów) TYPU A1 o powierzchni użytkowej: 137 m2 wraz z drogą dojazdową na dolnym tarasie osiedla - termin realizacji - II kwartał 2017 roku.</dd>
+
+                  <dt>II ETAP</dt>
+                  <dd>To budowa 2 budynków (cztery segmenty) TYPU A1 o powierzchni użytkowej: 137 m2 - termin realizacji - I kwartał 2018 roku.</dd>
+
+                  <dt>III ETAP</dt>
+                  <dd>Obejmuje budowę 4 budynków (osiem segmentów) TYPU A2, A3, B1, C1 o powierzchniach użytkowych od 114 do 138m2: termin realizacji - II kwartał 2018 roku.</dd>
+                </dl>
+                <p>Wszystkie domy posiadają dwie kondygnacje: parter i poddasze, garaż oraz miejsce postojowe.</p>
+                <p>Inwestycja obecnie jest w trakcie budowy, którą rozpoczęto w IV kwartale 2015 roku.</p>
+                <p>Cały projekt składa się z 18 nowych domów o powierzchni użytkowej od 114 do 138 m2 w atrakcyjnej cenie od 525 000 zł.</p>
+              </div>
+              <div class="col-sm-4">
+                <img class="img-responsive" src="/img/etapy.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <img class="img-responsive" src="/img/w1.jpg" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responsive" src="/img/w2.jpg" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responsive" src="/img/w3.jpg" alt="">
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responsive" src="/img/w4.jpg" alt="">
+              </div>
+            </div>
+            <!-- <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -115,7 +153,7 @@
                     <h4 class="service-heading">Web Security</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -125,382 +163,101 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Oferta</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row" id="offer_houses">
-                <!-- <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/1-L/1-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>1–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-danger">SPRZEDANY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/1-P/1-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>1–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-danger">SPRZEDANY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/2-L/2-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>2–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/2-P/2-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>2–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-warning">REZERWACJA</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/3-L/3-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>3–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/3-P/3-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>3–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/4-L/4-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>4–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-3 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/4-P/4-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>4–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/5-L/5-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>5–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/5-P/5-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>5–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-warning">REZERWACJA</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/6-L/6-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>6–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-warning">REZERWACJA</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/6-P/6-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>6–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-danger">SPRZEDANY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/7-L/7-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>7–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/7-P/7-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>7–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-danger">SPRZEDANY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/8-L/8-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>8–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-warning">REZERWACJA</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/8-P/8-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>8–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-danger">SPRZEDANY</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/9-L/9-L_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>9–L</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-warning">REZERWACJA</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/oferta/9-P/9-P_mapa_osiedla.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>9–P</h4>
-                        <p>137m2</p>
-                        <p>559,900 zł</p>
-                        <p class="text-success">DOSTĘPNY</p>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">O firmie</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                  <p>
+                    Standard wykończenia domów to tzw. podwyższony stan deweloperski.
+                  </p>
+                  <p>
+                    Na indywidualne życzenie możliwe jest również wykończenie pod klucz.
+                  </p>
+                  <p>
+                    Budynki budowane są w technologii tradycyjnej z wysokiej jakości materiałów.
+                    Elewacje wykonane w technologii lekko-mokrej, ocieplone styropianem, pokryte tynkiem ozdobnym w kolorze białym.
+                    Pozostałe elementy domu (okna, kominy, dachówka) utrzymane w kolorystyce antracytu.
+                  </p>
+                  <p>
+                    Teren na zewnętrz budynków ogrodzony (bez płotu od strony frontowej).
+                    Podjazdy, ścieżki i taras z kostki brukowej.
+                    Pozostała część terenu zagospodarowana trawą i żywopłotem.
+                  </p>
+                  <p>
+                    Do budynku doprowadzone będą wszystkie media, łącznie z siecią światłowodową.
+                    Liczniki mediów zlokalizowane w granicy działki.
+                    Docelowo osiedle będzie ogrodzone, a wjazd będzie odbywał się za pomocą bramy automatycznej.
+                  </p>
+                  <p>
+                    Specyfika ukształtowania obszaru osiedla pozwola na zróżnicowane
+                    i atrakcyjne dla przyszłych mieszkańców umiejscowienie budynków
+                    — zarówno ze względu na różnice wysokości jak i odmienne kształty geometryczne samych działek.
+                  </p>
+
+                  <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Szczegóły</a>
+                  <div class="collapse" id="collapseExample">
+                    <div class="well">
+                      <dl class="dl-horizontal">
+                      <dt>Posadzka</dt>
+                        <dd>
+                          Podkład z zaprawy cementowej, zatarte na gładko mechanicznie, na izolacjach cieplnych i akustycznych (dopuszczalne odchyłki nie większe jak dla cementowych podkładów pod posadzki wg PN-63/B-10145)
+                        </dd>
+                        <dt>Wentylacja</dt>
+                        <dd>
+                          Wentylacja grawitacyjna realizowana poprzez komin oraz kominki dachowe. Dodatkowy komin wentylacyjny dla podłączenia okapu kuchennego.
+                        </dd>
+                        <dt>Ogrzewanie</dt>
+                        <dd>
+                          Centralne ogrzewanie i ciepła woda dostarczane z kotła kondensacyjnego o zamkniętej komorze spalania z 60-100 litrowym zasobnikiem wody ciepłej wykonany ze stali nierdzewnej - typ Unical (pięć lat gwarancji na blok kotła) lub równorzędny opalany gazem ziemnym.
+                          Ogrzewanie podłogowe na poziomie parteru i łazienka na poddaszu.
+                        </dd>
+                        <dt>Dach</dt>
+                        <dd>
+                          Dach skośny o konstrukcji drewnianej pokryty dachówką ceramiczną – kolor antracyt - wg projektu Roben. Okna dachowe - Okpol. Wełna mineralna - Rockwoll i Isover. Płyty G-K Knauf.
+                        </dd>
+                        <dt>Parapety wewn.</dt>
+                        <dd>
+                          Parapety z konglomeratu kamiennego lub płyty MDF w kolorze białym, zewnętrzne z ceramiki lub aluminium malowanego proszkowo w kolorze białym lub pod kolor elewacji bądź ram okiennych.
+                        </dd>
+                        <dt>Instalacje wewn.</dt>
+                        <dd>
+                          Instalacja kanalizacyjna z PCV wg DT.
+                          Piony kanalizacyjne obudowane płytą gipsowo-kartonową lub cegłą.
+                          Instalacja wewnętrzna wody zimnej i ciepłej wykonana z rury warstwowej (piony w szachcie kominowym lub ścianach), rozprowadzenie lokalowe od wodomierzy wykonane w podłodze i w ścianach. Instalacje wodne i kanalizacyjne bez osprzętu (bez baterii, zaworów do podłączenia baterii, ceramiki sanitarnej).
+                          Instalacja elektryczna z osprzętem. Rozprowadzenie instalacji RTV, tele-informatycznej, satelitarnej, alarmowej wg projektu i indywidualnych uzgodnień. Instalacja c.o. wykonana na gotowo z kotłem kondensacyjnym z zasobnikiem ciepłej wody i ogrzewaniem podłogowym.
+                        </dd>
+                        <dt>Stolarka</dt>
+                        <dd>
+                          Okna PCV – szklone pakietem zespolonym jednokomorowym o współczynniku przenikania ciepła nie większym niż 1,0W/m2*K w ciepłej ramce (całość okna do 1,3W/m2*K) z okuciami obwiedniowymi. Przynajmniej jedno skrzydło w pomieszczeniu rozwieralno-uchylne. Rolety na oknach (oprócz okien dachowych). W jadalni i salonie okna przesuwne typu PSK z automatem przesuwu i otwierania/zamykania. Pakiet trzyszybowy za dopłatą.
+                        </dd>
+                        <dt>Konstrukcja</dt>
+                        <dd>
+                          Fundamenty: ławy, stropy i płyta fundamentowa – żelbetowe monolityczne.
+                          Ściany fundamentowe – bloczki betonowe M-6, ocieplane styropianem.
+                          Konstrukcja nadziemia – ściany z cegły ceramicznej typu POROTHON 25P+W, stropy typu Teriva.
+                        </dd>
+                        <dt>Elewacja</dt>
+                        <dd>
+                          Tynki maszynowe gipsowe szpachlowane oraz system płyt GK na stelażu 5 i 10 cm (poddasze w części dachowej), wygłuszone i ocieplone wełną mineralną (dopuszczalne odchyłki nie większe jak dla tynków wewnętrznych cementowo– wapiennych kat. III wg PN -70/B-10100).
+                        </dd>
+                        <dt>Ściany</dt>
+                        <dd>
+                          Ścianki działowe - z gazobetonu lub cegły typu POROTHON.
+                        </dd>
+                        <dt>Drzwi zewnętrzne</dt>
+                        <dd>
+                          Drzwi antywłamaniowe klasy „B” wyposażone w dwie wkładki patentowe oraz wizjer - firmy PORTA.
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
                 </div>
             </div>
+            <div class="row" id="offer_houses" style="margin-top: 2em"></div>
         </div>
     </section>
+
 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -508,91 +265,49 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Lokalizacja</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col-lg-12">
+                    <p>
+                      Atutem inwestycji jest lokalizacja osiedla.
+                      Położenie zaledwie 0,6 km od granicy Poznania pozwala na szybki i bezproblemowy dojazd do centrum.
+                      W pobliżu osiedla znajduje się także zajezdnia autobusowa lokalnej komunikacji publicznej
+                      Swarzędz oraz pętla poznańskiej linii autobusowej nr 55.
+                    </p>
+                    <p>
+                      Jeśli lubisz aktywnie spędzać wolny czas i marzysz o odpoczynku od miejskiego zgiełku – to jest  idealne miejsce dla Ciebie!
+                      Zaledwie parę kroków od TWOJEGO NOWEGO DOMU znajduje się las pełen ścieżek rowerowych i spacerowych, którymi można dotrzeć do terenów rekreacyjnych nad Maltą.
+                      Wspaniały widok z okna na piękno natury, zawsze świeże powietrze i śpiew ptaków o poranku...
+                    </p>
+                    <p>
+                      W pobliżu osiedla znajdują się wszystkie placówki oświatowe:
+                      żłobki, przedszkola oraz nowoczesna, wybudowana w 2015 roku Szkoła Podstawowa.
+                    </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
+
+
+            <div id="mapid" style="height: 400px; width: auto"></div>
+
+<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:auto;'><div id='gmap_canvas' style='height:440px;width:auto;'></div><div><small><a href="http://embedgooglemaps.com">Click here to generate your map!</a></small></div><div><small><a href="https://buywebsitetrafficreviews.org/trafficwebsites/">Don't know where to get traffic? We will tell you!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(52.384621,17.06066199999998),mapTypeId: google.maps.MapTypeId.SATELLITE};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(location_latitude,location_longitude)});infowindow = new google.maps.InfoWindow({content:'<strong>IZIDOM</strong><br>Zalasewo, Transportowa 8<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> -->
+
+
         </div>
     </section>
 
-    <!-- Clients Aside -->
-    <!-- <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">O firmie</h2>
+                        <h3 class="section-subheading text-muted">Informacje o firmie...</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </aside> -->
+        </section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -632,6 +347,7 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/leaflet/leaflet.js"></script>
     <script src="vendor/handlebars/handlebars.min.js"></script>
     <script src="vendor/papaparse/papaparse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
